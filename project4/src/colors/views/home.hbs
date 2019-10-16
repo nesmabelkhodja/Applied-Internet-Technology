@@ -1,0 +1,25 @@
+<form method="get" action="/colors">
+Red: <input type="text" name="red">
+
+<form method="POST" action="/colors">
+     Blue: <input type="text" name="blue">
+
+<form method="POST" action="/colors">
+     Green: <input type="text" name="green">
+
+<p></p>
+<form method="POST" action="/colors">
+Number of shades: <input type="text" name="total">
+
+<input type="submit" name="Generate Colors!">
+</form>
+
+<p>{{message}}</p>
+
+<ul class = "colors">
+{{#each shades}}
+<div style='background-color:{{this}}'>
+<li>{{@key}}</li>
+</div>
+{{/each}}
+</ul>

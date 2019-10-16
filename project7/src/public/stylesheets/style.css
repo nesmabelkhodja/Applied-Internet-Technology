@@ -1,0 +1,71 @@
+h1 {
+    background-image: url('https://ak7.picdn.net/shutterstock/videos/20180707/thumb/1.jpg');
+    color: red;
+    text-align: center;
+    font-size: 150%;
+    font-family: "Bookman";
+
+}
+
+form {
+  color: red;
+  text-align: center;
+  font-family: "Bookman";
+  font-size: 200%;
+}
+
+.hidden{
+  visibility:hidden;
+}
+
+body {
+   background-image: url('https://images-na.ssl-images-amazon.com/images/I/51MmZy0sikL._SY355_.jpg');
+   text-align: center;
+}
+
+form {
+  color: red;
+  text-align: center;
+  font-family: "Bookman";
+  font-size: 200%;
+}
+
+.buttonHolder{
+  text-align:center;
+}
+
+p {
+    text-align: left;
+    display: inline-block;
+    width: 120px;
+    height: 165px;
+    margin: 20px;
+    background-color: white;
+    border: 0.3 solid #aaa;
+    font-size: 150%;
+}
+
+span {
+    display: inline-block;
+    width: 120px;
+    height: 165px;
+    background-color: darkblue;
+    vertical-align: top;
+    margin: 20px;
+}
+
+.hit {
+ /* display: block;*/
+  margin:0 auto;
+  font-size: 150%;
+  position: fixed;
+  left: 5px;
+}
+
+.stand {
+ /* display: block;*/
+  margin:0 auto;
+  font-size: 150%;
+  position: fixed;
+  right: 5px;
+}

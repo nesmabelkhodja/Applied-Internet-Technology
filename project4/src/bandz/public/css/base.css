@@ -1,0 +1,53 @@
+body {
+    background-image: url('http://data.whicdn.com/images/213961709/large.jpg');
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 450%;
+    font-family: "Bookman";
+    background-image: url("https://target.scene7.com/is/image/Target/11081948_Alt02?wid=290&hei=290&qlt=70&fmt=pjpeg");
+
+}
+
+
+a{
+	color: white;
+    font-size: 250%;
+     font-family: "Bookman";
+     background-image: url("https://target.scene7.com/is/image/Target/11081948_Alt02?wid=290&hei=290&qlt=70&fmt=pjpeg");
+}
+
+h2 {
+  text-align: center;
+  color: darkblue;
+  font-size: 250%;
+  background-image: url("https://target.scene7.com/is/image/Target/11081948_Alt02?wid=290&hei=290&qlt=70&fmt=pjpeg");
+
+}
+
+p {
+	color: darkblue;
+    text-align: center;
+    font-size: 100%;
+     font-family: "Bookman";
+     background-image: url("https://target.scene7.com/is/image/Target/11081948_Alt02?wid=290&hei=290&qlt=70&fmt=pjpeg");
+}
+
+form {
+  color: darkblue;
+    text-align: center;
+    font-family: "Bookman";
+    background-image: url("https://target.scene7.com/is/image/Target/11081948_Alt02?wid=290&hei=290&qlt=70&fmt=pjpeg");
+    font-size: 200%;
+}
+
+
+ul{
+    font-size: 150%;
+    font-family: "American Typewriter";
+    color: darkblue;
+    text-align: center;
+     background-image: url("https://target.scene7.com/is/image/Target/11081948_Alt02?wid=290&hei=290&qlt=70&fmt=pjpeg");
+}

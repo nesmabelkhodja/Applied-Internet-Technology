@@ -1,0 +1,25 @@
+{
+  "name": "homework08",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nesma Belkhodja",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^4.12.0",
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "mongoose": "^4.13.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-003-fall-2017/nb2253-homework08.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-003-fall-2017/nb2253-homework08/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-003-fall-2017/nb2253-homework08#readme",
+  "description": ""
+}

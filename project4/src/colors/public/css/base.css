@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 450%;
+    font-family: "American Typewriter";
+    background-image: url("https://media.giphy.com/media/ZR8BZWApTXMjK/giphy.gif");
+
+}
+
+a span { 
+    background-color: darkviolet; 
+}
+
+a{
+	color: white;
+    font-size: 250%;
+     font-family: "American Typewriter";
+}
+
+ul{
+	text-align: center;
+}
+a:hover {
+    color: green;
+}
+
+h2 {
+  text-align: center;
+  color: orange;
+}
+
+p {
+	color: white;
+    text-align: center;
+    font-size: 250%;
+     font-family: "American Typewriter";
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form {
+  color: white;
+    text-align: center;
+    font-family: "American Typewriter";
+    font-size: 250%;
+}
+
+footer { 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+ul{
+    font-size: 160%;
+    font-family: "American Typewriter";
+    color: white;
+}

@@ -1,0 +1,34 @@
+{
+  "name": "nb2253-homework05",
+  "version": "1.0.0",
+  "description": "Homework05",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-003-fall-2017/nb2253-homework05.git"
+  },
+  "author": "Nesma Belkhodja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-003-fall-2017/nb2253-homework05/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-003-fall-2017/nb2253-homework05#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.9.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.17.1",
+    "express-session": "^1.15.6",
+    "hbs": "^4.0.1",
+    "mongodb": "^3.3.2",
+    "mongoose": "^4.13.19",
+    "mongoose-url-slugs": "^1.0.2",
+    "node-uuid": "^1.4.8"
+  }
+}

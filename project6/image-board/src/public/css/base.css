@@ -1,0 +1,41 @@
+body {
+    background-image: url('http://wtti.dumptrucks.com/files/2014/07/light-pattern-background.jpg');
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+    font-size: 450%;
+    font-family: "Bookman";
+
+}
+
+h2 {
+  text-align: center;
+  color: darkblue;
+  font-size: 250%;
+
+}
+
+img{
+  text-align: center;
+}
+
+span{
+  text-align: center;
+  color: red;
+}
+
+p {
+	color: darkblue;
+  text-align: center;
+  font-size: 100%;
+  font-family: "Bookman";
+}
+
+form {
+  color: darkblue;
+  text-align: center;
+  font-family: "Bookman";
+  font-size: 200%;
+}

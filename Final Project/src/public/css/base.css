@@ -1,0 +1,72 @@
+body {
+   background-image: url('https://s3.amazonaws.com/cup-images/craftybob/large/cup528883_1519.jpg');
+}
+
+h1 {
+    background-image: url('https://secure.static.tumblr.com/d33ead7e1b09775494460115c8ce4fda/aakh9xb/6rGnq8syq/tumblr_static_tumblr_static__640.jpg');
+    color: darkblue;
+    text-align: center;
+    font-size: 450%;
+    font-family: "Bookman";
+
+}
+
+li {
+    background-image: url('https://secure.static.tumblr.com/d33ead7e1b09775494460115c8ce4fda/aakh9xb/6rGnq8syq/tumblr_static_tumblr_static__640.jpg');
+    color: darkblue;
+    text-align: center;
+    font-size: 450%;
+    font-family: "Bookman";
+
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+h2 {
+  color: darkblue;
+  font-size: 110%;
+
+}
+
+p input.list{
+    height:200px;
+    font-size:14pt;
+}
+
+img{
+  text-align: center;
+}
+
+span{
+  text-align: center;
+  color: red;
+}
+
+li {
+  color: darkblue;
+  text-align: center;
+  font-size: 70%;
+  font-family: "Bookman";
+}
+
+p {
+	color: darkblue;
+  text-align: center;
+  font-size: 100%;
+  font-family: "Bookman";
+}
+
+form {
+  color: darkblue;
+  font-size: 200%;
+}
+
+#p01 {
+    font-size: 200%;
+}
+
+ol {
+    font-size: 71%;
+}

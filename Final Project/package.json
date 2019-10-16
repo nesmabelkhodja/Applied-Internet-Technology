@@ -1,0 +1,39 @@
+{
+  "name": "nb2253-final-project",
+  "version": "1.0.0",
+  "description": "Every week, college radio stations across the nation send out a chart featuring the top 30 songs played and the top 5 additions to the new music library for that given week. The way it has always been done in the past, the Music Director compiles this list by manually reviewing all the posted playlists for the week and making note of repeated songs. This method is very inefficient and can take hours. Furthermore, labels and promotion agencies often ask for 'tracking' numbers to see if their albums have been added to the new music library and if so, how many times they have been played.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyu-csci-ua-0480-003-fall-2017/nb2253-final-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyu-csci-ua-0480-003-fall-2017/nb2253-final-project/issues"
+  },
+  "homepage": "https://github.com/nyu-csci-ua-0480-003-fall-2017/nb2253-final-project#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "config.json": "0.0.4",
+    "connect-ensure-login": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "hbs": "^4.0.1",
+    "mongoose": "^4.13.2",
+    "mongoose-url-slugs": "^1.0.2",
+    "morgan": "^1.9.0",
+    "nodemailer": "^4.4.0",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^4.4.0",
+    "save": "^2.3.1",
+    "start": "^5.1.0"
+  }
+}

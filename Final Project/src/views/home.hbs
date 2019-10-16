@@ -1,0 +1,13 @@
+<h1>{{error}}</h1>
+{{#if charts}}
+<div class="col-sm-9">
+    <hr>
+    <h2>My Charts</h2>
+    <h5><span class="glyphicon glyphicon-time"></span> Charts by {{user.username}} <a href="/logout"><input type="submit" value="Log out"></a></h5>
+    <p>{{#each charts}}
+    <h2><a href="/charts/{{slug}}">{{this.title}}</a></h2>
+    {{/each}}</p>
+    <br><br>
+
+{{/if}}
+

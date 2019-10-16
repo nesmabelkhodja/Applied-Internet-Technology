@@ -1,0 +1,43 @@
+body {
+    background-color: purple;
+}
+
+h1 {
+    color: yellow;
+    text-align: center;
+    font-size: 350%;
+    font-family: "Lucida Console";
+}
+
+a span { 
+    background-color: darkviolet; 
+}
+
+a{
+	color: white;
+    font-size: 250%;
+    font-family: "Lucida Console";
+}
+
+ul{
+	text-align: center;
+}
+a:hover {
+    color: green;
+}
+
+h2 {
+  text-align: center;
+  color: orange;
+}
+
+p {
+	color: white;
+    text-align: center;
+}
+
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

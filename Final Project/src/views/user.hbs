@@ -1,0 +1,9 @@
+<h1> Welcome, {{username.title}}</h1>
+
+<h2>My Charts:</h2>
+{{#each username.chart}}
+<p><a href="/charts/{{this.slug}}">{{this.title}}</a></p>
+{{/each}}
+
+<h2><a href="/charts">Create New Chart</a></h2>
+

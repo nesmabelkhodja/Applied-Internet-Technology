@@ -1,0 +1,29 @@
+<h1> ֎ Movies ֍</h1>
+
+<form class="filterGenre" method="get" action="">
+  Director: <input name="director" type="text">
+    <input type="submit">
+</form>
+
+<table style="width:100%">
+  <tr>
+    <th>Title</th>
+    <th>Director</th> 
+    <th>Year</th>
+  </tr>
+  
+  {{#each movies}}
+  <tr>
+    <td>{{this.title}}</td>
+    <td>{{this.director}}</td> 
+    <td>{{this.year}}</td>
+  </tr>
+  {{/each}}
+</table>
+
+<br>
+<a href="movies/add">  Add a new movie  </a>
+<br>
+<a href="mymovies">  Check your movies!  </a>
+<br>
+<br>

@@ -1,0 +1,42 @@
+<h1>♪ AiTunes ♪</h1>
+
+<form class="filterGenre" method="get" action="">
+   <input type="radio" name="filterGenre" value="Rock"> Rock
+   <input type="radio" name="filterGenre" value="Pop"> Pop
+   <input type="radio" name="filterGenre" value="Hip-Hop"> Hip-Hop
+   <input type="radio" name="filterGenre" value="Electronic"> Electronic
+   <input type="radio" name="filterGenre" value="Metal"> Metal
+   <input type="radio" name="filterGenre" value="Jazz"> Jazz
+   <input type="submit" value="Filter By Genre">
+</form>
+
+<h2> Recommendations: </h2>
+<ul class = "strings">
+{{#each strings}}
+<li>{{this}}</li>
+{{/each}}
+</ul>
+
+ <h2> Add a band recommendation: </h2>
+
+ <form method="post" action"">
+ 
+  <p class="add">
+    Name: <input name="name" type="text">
+    <br>
+    Location: <input name="location" type="text">
+    <br>
+    Description: <input name="description" type="text">
+    <br>
+   <input type="radio" name="filterGenre" value="Rock"> Rock
+   <input type="radio" name="filterGenre" value="Pop"> Pop
+   <br>
+   <input type="radio" name="filterGenre" value="Hip-Hop"> Hip-Hop
+   <input type="radio" name="filterGenre" value="Electronic"> Electronic
+   <br>
+   <input type="radio" name="filterGenre" value="Metal"> Metal
+   <input type="radio" name="filterGenre" value="Jazz"> Jazz
+   <br>
+  <input type="submit">
+  </p>
+</form>

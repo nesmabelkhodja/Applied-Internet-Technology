@@ -1,0 +1,36 @@
+<h1> {{charts.title}}</h1>
+
+<h2 style="color:red;">{{error}}</h2>
+<h5><span class="glyphicon glyphicon-time"></span> Chart by {{user.username}}, created on {{charts.createdAt}}. {{total}} songs played.</h5>
+<form method="post" action="/charts/delete/{{charts.slug}}">
+<table style="width:100%">
+  <tr>
+    <th>Artist</th>
+    <th>Title</th> 
+    <th>Album</th>
+    <th>Label</th>
+    <th>Plays</th>
+    <th>   </th>
+  </tr>
+{{#each charts}}
+  
+  {{#each playlist}}
+  <tr>
+    <td>{{this.artist}}</td>
+    <td>{{this.title}}</td> 
+    <td>{{this.album}}</td>
+    <td>{{this.label}}</td>
+    <td>{{this.plays}}</td>
+    <td><input type="checkbox" name="toDelete" value="{{this._id}}"></td>
+  </tr>
+  {{/each}}
+{{/each}}
+</table>
+
+<input type="submit" value="Delete Song(s)">
+</form>
+
+<form method="post" action="/charts/{{charts.slug}}">
+<p> Artist: <input name="newArtist" type="text"> Title: <input name="newTitle" type="text"> Album: <input name="newAlbum" type="text"> Label: <input name="newLabel" type="text"></p>
+    <input type="submit" value="Add Another">
+</form>
