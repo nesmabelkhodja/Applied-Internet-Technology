@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/nyu-csci-ua-0480-003-fall-2017/nb2253-homework04#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
+    "body-parser": "^1.20.1",
     "eslint": "^4.9.0",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "hbs": "^4.0.1",
     "mocha": "^4.0.1",
     "mocha-sinon": "^2.0.0"
